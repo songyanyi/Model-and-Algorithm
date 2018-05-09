@@ -1,0 +1,116 @@
+﻿% houxu.tex
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%宋焱燚专用格式
+% \documentclass[UTF8]{ctexbook}
+
+% \ctexset{
+%     part/number = \chinese{part}
+% }
+% \usepackage{amsmath}% ams 数学公式
+% \usepackage{amsfonts}% ams 数学字体
+% \usepackage{amssymb,latexsym}% ams 数学符号与LaTeX数学符号
+% \usepackage{mathrsfs}% 花式符号
+% \usepackage{ntheorem}%定理、定义、证明
+%   \theoremstyle{nonumberplain}
+%   \theoremheaderfont{\bfseries}
+%   \theorembodyfont{\normalfont}
+%   \theoremsymbol{$\square$}
+%   \newtheorem{Proof}{\hskip 2em 证明}
+%   \newtheorem{theorem}{\hspace{2em}定理}[chapter]
+%   \newtheorem{definition}{\hspace{2em}定义}[chapter] % 如果没有章, 只有节, 把上面的[chapter]改成[section]
+%   \newtheorem{axiom}[definition]{\hspace{2em}公理}
+%   \newtheorem{lemma}[definition]{\hspace{2em}引理}
+%   \newtheorem{proposition}[definition]{\hspace{2em}命题}
+%   \newtheorem{corollary}[definition]{\hspace{2em}推论}
+%   \newtheorem{remark}{\hspace{2em}注}[chapter] %类似地定义其他“题头”. 这里“注”的编号与定义、定理等是分开的
+% %算法伪代码
+% \usepackage{algorithm}
+% \usepackage{algorithmicx}
+% \usepackage{algpseudocode}
+%     \floatname{algorithm}{算法}
+%     \renewcommand{\algorithmicrequire}{\textbf{输入:}}
+%     \renewcommand{\algorithmicensure}{\textbf{输出:}}
+
+
+% \usepackage{enumerate}%itemiz环境。\begin{enumerate}[step 1][a)]可以使用 A，a，I，i，1 作为可选项产生
+% \usepackage{cite}%参考文献
+%     \bibliographystyle{plain}
+% \usepackage{extarrows}% 带参数的箭头
+% \usepackage{hyperref}% 超链接
+% \usepackage{pifont}%然后在正文输入\ding{172}～\ding{211}得到相应数字，要是要①就输入：\ding{172}②就输：\ding{173}
+% \hypersetup{
+%     colorlinks=false,% 去掉超链接颜色
+%     pdfborder=0 0 0% 取消超链接的边框
+% }
+% \usepackage{graphicx}% 图片管理
+% % \usepackage{caption}
+% % \usepackage{subcaption}%并排的图各有标题
+% \graphicspath{{images/}}% 设置图片搜索路径
+% \usepackage{float,varwidth}% 浮动体
+% \usepackage{booktabs}% 三线表
+% \usepackage{fancyhdr}% 页眉设置
+% \usepackage{xcolor}% 颜色宏包
+% \usepackage{colortbl}% 彩色表格
+% \usepackage{listings}% 代码高亮
+% \usepackage{caption}% 对标题进行控制，如让\caption标题的字体缩小一号，同时数字标签使用粗体可以用：\usepackage[font=small,labelfont=bf]{caption}
+% % \usepackage{xfrac,upgreek}%分别是行间公式如a/b的形式（将原来的命令\frac改成\sfrac）和希腊字体的宏包的
+% \usepackage{mathtools}%lgathered和rgathered环境把公式向左向右对齐
+% % \usepackage{tabularx}%提供自动延伸的表列，（X列格式说明符），文字过长时可以自动转行
+% % \usepackage{longtable}%长表格
+% % \usepackage{enumitem}%enumerate宏包的升级
+% % \usepackage{harpoon}%数学公式的矢量
+% % \usepackage{bookmark}%目录的书签
+% \renewcommand{\headwidth}{\textwidth}%图片并排，这个要列在所有宏包的后面
+% \definecolor{codegreen}{rgb}{0,0.6,0}
+% \definecolor{codegray}{rgb}{0.5,0.5,0.5}
+% \definecolor{codepurple}{rgb}{0.58,0,0.82}
+% \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+% \lstset{
+%     commentstyle=\color{codegreen},
+%     keywordstyle=\color{magenta},
+%     numberstyle=\tiny\color{codegray},
+%     stringstyle=\color{codepurple},
+%     basicstyle=\footnotesize,
+%     breakatwhitespace=false,% 断行只在空格处
+%     breaklines=true,% 自动断行
+%     captionpos=b,% 标题位置
+%     keepspaces=true,
+%     numbers=left,
+%     numbersep=5pt,
+%     showspaces=false,
+%     showstringspaces=false,
+%     showtabs=false,% 显示
+%     tabsize=2% TAB 被当作两个空格
+% }
+% \topmargin=0pt\oddsidemargin=0pt\evensidemargin=0pt
+% \textwidth=16.5cm\textheight=23cm\raggedbottom%我这么设置是为了缩小页边距，满足有的文字无法转行
+% % \pagestyle{headings}%页眉为章节标题，无页脚
+% % \setlength{\abovecaptionskip}{10pt}
+% % \setlength{\belowcaptionskip}{-15pt}%图片表格的前后距离设置
+% % \CTEXsetup[format={\zihao{-3}\raggedright\bfseries}]{section}%设置节的格式
+% \begin{document}
+{\kaishu
+\begin{center}
+\LARGE 美人赋
+\end{center}
+\par
+{\centering 问世间，情是何物，直教人死生相许。
+
+}
+\par
+晚来闲适，步余马于洛水之滨。时来晚风清，江水渌，芳草纤纤，百花团簇。渺远景微波鳞鳞，及近尔花鸟相容。思散梦始，俯仰察观。睹远水涟漪处生一仙子，宓妃之貌，皇英之姿。髣髴兮若轻云之蔽月，飘飖兮若流风之回雪。修虞姿态，蹁跹飞仙。动之明波，思之魄飞。江流萦渚，汀兰为之弥香。罗衣璀璨，百花与之争艳。蘅皋芳蔼，气若幽兰。游龙戏水，翔凤高鸣。婀娜柔情，灵妃顾笑。凌波微步，罗袜生尘。无奈天长水远，求之无迹，欲教传媒，青鸟衔恨，思若流波，怛兮在心。
+\par
+“春草碧色，春水渌波，送君南浦，伤之如何。秋露如珠，秋月如珪，明月白露，光阴往来，与子之别，思心徘徊。”
+\par
+谁言思之不伤兮，谅天地之杳冥。不得寄此银笺兮，泣尽中夜而未曦。晚秋风景倍凄凉，万里愁生高楼上。衰草凝烟乍不绿，枯木笼月影徒伤。玉楼楼高人独倚，鸳鸯瓦冷柳色空。秋气凄目桂枝落，寒江流水伴愁浓。不知玉人在何处，今昔何夕，情寄何方？宿雁偏落，寒芦深处。鸳鸯只影，冰字寒生。落叶逐流水，总寄相思去，却又是红衣狼藉风雨处。回首埋愁地，泪随流水急，又更兼三分葬花天气。香奩畔，翠翘在，人何还。梦觉晓来倚虚幌，烛光残尽，镜中空白九分头。噫，秋风秋月秋煞人，可怜落红飘尽，风吹冷香轻。几声寒鸦归去，而今触绪添愁，点滴芭蕉心。偷窥天上明月，小立人间风寒，共谁同圆缺。最是不胜一处相思一处闲愁。
+\par
+{\centering 泠泠岬岸水，流不尽古今情，唯有一首红豆寄相思。
+
+}
+\par
+醉死不相见，恨杀红线老！海水直下万里深，谁人不言相思苦。美女如花隔云端，上有青明之高天，下有渌水之波澜，天长地远魄飞苦，梦魄不到关山难。长相思，泪始干，长相思，摧心肝。朝发洧盘兮秣驷于扶桑之下，八龙为余先驱兮翼祥云而踌躇。倚阊阖而还望兮寄忧思于南浦，送美人兮伤一别，不念此去千里。若乃苍梧山崩，湘水阻绝，九嶷倾颓，湘竹泣血。问此间，花为谁开，竹为谁青，泪为谁洒，梦为谁踟蹰。于今直念古者海枯石烂之忠贞；至如天路高寒兮汉祚衰，山河崩颓兮计难归，雁南飞兮独漂泊，弦音绝兮无人会。肠断兮思愔愔，胡笳十八拍，拍不散眉弯；或乃三国兵甲，乱世烽烟，生怜玉骨，钗没黄沙，一计赴国，两虎相争，含恨梦碎，极目天涯。焚蝶续貂蝉，万世沧桑，写不尽，红颜泪；若夫沈园一见，词赋相合，十年生死，斑鬓削磨，贯是东风吹雨恶，不道人间情转薄，天若有情今安在，偏叫人间沧桑多；偿有相如醉剑，文君鸣琴，五弦绿绮，音节高清，交颈颉颃，一低一昂；又如铜雀台畔漳水流，古来欢情几度秋，漓漓浮华随逝水，彤云北度又登楼，云聚散，梦悠悠，金龙玉凤绕空楼，千古功名今安在，惟有旧时明月，旧时圆缺；又还道，成郢烟土，细腰争舞。金屋匿娇，长门空赋。人生初见，憔悴有时。长恨歌舞，比翼连枝。圆圆曲罢，冲冠一怒。后庭花开，今翻摇落，“花开花落不长久，落红满地归寂中”。任娇红繁彩，妖绿染世，只看取菡萏，那花中最洁贞。
+
+}
+% \bibliography{ANN}%bib文件名称
+% \end{document}
