@@ -1,5 +1,4 @@
-# 这里是数据的封面，参考开源项目[latex-createspace-bookcover]
-(https://github.com/jfogarty/latex-createspace-bookcover)
+# 这里是数据的封面，参考开源项目[latex-createspace-bookcover](https://github.com/jfogarty/latex-createspace-bookcover)
 Latex CreateSpace BookCover
 ===========================
 
