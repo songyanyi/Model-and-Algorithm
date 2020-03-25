@@ -1,6 +1,0 @@
-PWD C:/Users/yanyisong/Desktop/模型与算法/main
-INPUT d:/texlive/2016/texmf-var/web2c/xetex/xelatex.fmt
-INPUT ./preamble.tex
-OUTPUT preamble.log
-INPUT d:/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT d:/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
