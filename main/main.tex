@@ -3,26 +3,19 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%  模型与算法多文件编译 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[UTF8]{ctexbook}
-\input{preamble}                %复杂的导言区设置
+\input{preamble}        %复杂的导言区设置
 
-\usepackage{draftwatermark} 	%水印draft
-\SetWatermarkScale{1}		%设置水印的显示大小
-%\SetWatermarkAngle{45}
-%\SetWatermarkColor{black!60!cyan!20}
-%\SetWatermarkFontSize{4cm}
-%\SetWatermarkText{WATERMARK}
-
-% \usepackage{syntonly}         %只检测Latex代码，不输出PDF
+% \usepackage{syntonly} %只检测Latex代码，不输出PDF
 % \syntaxonly
- \includeonly{
- part-MLDL-chap-Stoc,
- part-svm-chap-svm1,
- part-svm-chap-svm2,
- part-MLDL-chap-RVM,
- part-MLDL-chap-ANN,
- part-MLDL-chap-DeepLearn,
- part-MLDL-chap-DeepLearn-GAN,
- part-MLDL-chap-boost}   % 只编译某一章
+%  \includeonly{
+%  part-MLDL-chap-Stoc,
+%  part-svm-chap-svm1,
+%  part-svm-chap-svm2,
+%  part-MLDL-chap-RVM,
+%  part-MLDL-chap-ANN,
+%  part-MLDL-chap-DeepLearn,
+%  part-MLDL-chap-DeepLearn-GAN,
+%  part-MLDL-chap-boost}  % 只编译某一章
 
 
 \begin{document}
@@ -59,8 +52,10 @@
 \include{part-SXJM-chap-change3hao}
 \part{优化模型}
 \include{part-opt-chap-noconst}
+\include{part-opt-chap-nols}
 \include{part-opt-chap-consnl}
 \include{part-opt-chap-linprog}
+\include{part-opt-chap-intprog}
 \include{part-opt-chap-qprog}
 \include{part-opt-chap-socp}
 \include{part-opt-chap-sdp}
@@ -70,6 +65,7 @@
 \include{part-opt-chap-gmlp}
 \include{part-opt-chap-glopt}
 \include{part-opt-chap-GA}
+\include{part-opt-chap-yalmip}
 \part{微分方程}
 \include{part-de-chap-ode}
 \include{part-de-chap-pde}
@@ -87,8 +83,8 @@
 \include{part-MLDL-chap-boost}
 
 %% 参考文献
-\bibliography{part-MLDL-chap-boost,part-MLDL-chap-ANN,part-MLDL-chap-DeepLearn,part-MLDL-chap-RVM}
-% \bibliography{part-MLDL-chap-boost,part-de-chap-bsde,part-de-chap-sde,part-matlab-chap-drawing,part-MLDL-chap-ANN,part-MLDL-chap-DeepLearn,part-MLDL-chap-RVM,part-MLDL-chap-Stoc,part-SXJM-chap-change3hao}
+% \bibliography{part-MLDL-chap-boost,part-MLDL-chap-ANN,part-MLDL-chap-DeepLearn,part-MLDL-chap-RVM}
+\bibliography{part-MLDL-chap-boost,part-de-chap-bsde,part-de-chap-sde,part-matlab-chap-drawing,part-MLDL-chap-ANN,part-MLDL-chap-DeepLearn,part-MLDL-chap-RVM,part-MLDL-chap-Stoc,part-SXJM-chap-change3hao}
 
 %% 后序
 % \include{houxu}      %调入后序子源文件houxu.tex
